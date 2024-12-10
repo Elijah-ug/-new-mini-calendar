@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    background-color: hsl(219, 68%, 52%);
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+.calendar{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    text-align: center;
+    background-color: #fff;
+    width: 300px;
+    overflow: hidden;
+}
+.month{
+    background-color: rgb(248, 11, 157);
+    margin: 0;
+    padding: 8px;
+    font-weight: 600;
+
+    color: #fff;
+}
+.day, .year{
+    font-weight: 550;
+    padding: 5px;
+    color: grey
+}
+.date{
+    font-weight: 900;
+    font-size: 40px;
+    padding: 5px;
+    color: rgb(48, 39, 39)
+}
